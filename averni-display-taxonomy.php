@@ -2,7 +2,7 @@
 /*
 Plugin Name: Taxonomy Display by Averni
 Description: A simple, clean code plugin that allows the output of a taxonomy key on any page or post. Add styles to ".averni-taxonomy-list".
-Version: 1.0.0
+Version: 1.1
 Author: Averni Brands
 Author URI: https://averni.co/
 License: GPL2
@@ -113,7 +113,7 @@ function my_plugin_settings_page() {
 
 
 
-        <p style="padding-top:20px">[averni_taxonomy key="<span id="taxonomyout"></span>" linked="<span id="linkedoutput">yes</span>" style="<span id="listoutput">comma</span>"]</p>
+        <p style="padding-top:20px">[averni_taxonomy key="<span id="taxonomyout">category</span>" linked="<span id="linkedoutput">yes</span>" style="<span id="listoutput">comma</span>"]</p>
         <h2 style="padding-top:100px">Documentation</h2>
         <p>All your options: [averni_taxonomy key="taxonomy" linked="yes/no" style="comma/ul"]</p>
         <h3>Taxonomy key</h3>
